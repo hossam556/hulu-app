@@ -1,0 +1,15 @@
+.h2{
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.h2:hover{
+    color: rgb(250, 250, 250);
+    cursor: pointer;
+    transform: scale(1.25);
+}
+.h2:active{
+    color: red;
+}
+.h2:last-child{
+    padding-right: 70px;}
